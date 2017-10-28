@@ -1,10 +1,6 @@
-github.com/idmontie/react-router-v4-demo
+https://www.youtube.com/watch?v=A71aqufiNtQ
 
-https://github.com/gpltaylor/react-router-workshop
-
-https://www.youtube.com/watch?v=sUauVes2aC4&index=4&list=PL8vZpHuqa_hPpKUHFlyPkiI4MPexAMhvc
-
-https://www.youtube.com/watch?v=b5UjDaWyUB8&list=PLqrUy7kON1mc7U60YUaN3ZR9EHlh9fsDL&index=2
+https://jsonplaceholder.typicode.com/
 
 
 1. To create ReactJS app
