@@ -1,3 +1,74 @@
+/* for every elment */
+/*
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+*/
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color:red;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.box-1 {
+   
+    border: 5px rgb(76, 0, 255) solid;
+    padding: 10px !important;
+    margin: 10px !important;
+}
+
+.add-project{
+    background-color: rgb(153, 145, 145);
+    color: #fff;
+    /*border-top: 5px red solid;
+    border-right: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;*/
+
+    border: 5px red solid;
+    padding: 10px !important;
+    margin: 10px !important;
+    
+}
+
+.projects{
+    border: 5px rgb(178, 228, 176) solid;
+    padding: 10px !important;
+    margin: 10px !important;   
+}
+
+.todos{
+    border: 5px rgb(107, 105, 105) solid;
+    padding: 10px !important;
+    margin: 10px !important;    
+}
+
+.container h3 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+
+}
 .project-items{
     list-style-type: none;
 }

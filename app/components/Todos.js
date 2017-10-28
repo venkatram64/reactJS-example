@@ -25,9 +25,9 @@ class Todos extends React.Component {
     render(){
         let todoItems = this.processTodoItems();
         return (
-            <div className="todos">
-                <h3>Todos</h3>
-                {todoItems}<hr/>
+            <div>
+                <h3>Todos</h3><hr/>
+                {todoItems}
             </div>
         )
     }

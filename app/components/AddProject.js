@@ -46,7 +46,7 @@ class AddProject extends React.Component {
     render(){
         let cats = this.displayCategories();
         return (
-            <div className="AddProject">
+            <div className="add-project">
                 <h3>Add Project</h3> <hr/>
                 <form onSubmit={this.handleSubmit.bind(this)}>
                     <div>

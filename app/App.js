@@ -92,11 +92,15 @@ class App extends React.Component {
     }
     render(){
         return (
-            <div className="app">
-                <AddProject addProject={this.handleAddProject.bind(this)}/>
-                <Projects projects={this.state.projects} onDelete={this.handleDeleteProject.bind(this)}/>
-                <hr/>
-                <Todos todos={this.state.todos}/>
+            <div className="container">
+                <div className="box-1">
+                    <AddProject addProject={this.handleAddProject.bind(this)}/>
+                    <Projects projects={this.state.projects} onDelete={this.handleDeleteProject.bind(this)}/>
+                    
+                </div>
+                <div className="todos">
+                    <Todos todos={this.state.todos}/>
+                </div>
             </div>
         )
     }

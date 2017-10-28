@@ -29,8 +29,8 @@ class Projects extends React.Component {
         let projectItems = this.processProjectItems();
         return (
             <div className="projects">
-                <h3>Latest Projects</h3>
-                {projectItems}<hr/>
+                <h3>Latest Projects</h3><hr/>
+                {projectItems}
             </div>
         )
     }
